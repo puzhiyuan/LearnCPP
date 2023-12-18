@@ -2,18 +2,11 @@
  * @Author: ‘puzhiyuan’ ‘puzhiyuan185489643@gmail.com’
  * @Date: 2023-12-10 14:48:55
  * @LastEditors: ‘puzhiyuan’ ‘puzhiyuan185489643@gmail.com’
- * @LastEditTime: 2023-12-10 15:20:54
+ * @LastEditTime: 2023-12-18 19:12:04
  * @FilePath: \LearnCPP\src\Foundation\lessons02\ScopeOfVariable.cpp
  * @Description: 变量的作用域
  */
 #include <iostream>
-
-/*
-    1.全局变量和静态局部变量自动初始化为0。
-    2.局部变量不会自动初始化，其值是不确定的，程序中应该有初始化局部变量的代码，否则编译可能会报错（不同的编译器不一样）。
-    3.局部变量和全局变量的名称可以相同，在某函数或语句块内部，如果局部变量名与全局变量名相同，就会屏蔽全局变量而使用局部变量，如果想使用全局变量，可以在变量名前加两个冒号(::)。
-*/
-
 
 // 全局变量，具有全局作用域
 int globalVar = 10;

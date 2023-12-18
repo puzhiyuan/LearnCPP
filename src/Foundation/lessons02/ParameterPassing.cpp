@@ -2,18 +2,10 @@
  * @Author: ‘puzhiyuan’ ‘puzhiyuan185489643@gmail.com’
  * @Date: 2023-12-10 15:25:15
  * @LastEditors: ‘puzhiyuan’ ‘puzhiyuan185489643@gmail.com’
- * @LastEditTime: 2023-12-10 16:07:45
+ * @LastEditTime: 2023-12-18 19:11:13
  * @FilePath: \LearnCPP\src\Foundation\lessons02\ParameterPassing.cpp
  * @Description: 参数传递
  */
-
-
-/*
-    值传递： 通过复制参数的值传递给函数，对参数的修改不会影响原始变量。
-    引用传递： 通过引用传递参数，直接操作原始变量，对参数的修改会影响原始变量。(引用传递实际上是传递变量的别名)
-    地址传递： 通过指针传递参数的地址，函数通过指针操作原始变量，对参数的修改会影响原始变量。
-*/
-
 
 #include <iostream>
 

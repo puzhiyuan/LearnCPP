@@ -1,27 +1,27 @@
 /*
- * @Author: â€˜puzhiyuanâ€™ â€˜puzhiyuan185489643@gmail.comâ€™
+ * @Author: ¡®puzhiyuan¡¯ ¡®puzhiyuan185489643@gmail.com¡¯
  * @Date: 2023-12-08 14:19:59
- * @LastEditors: â€˜puzhiyuanâ€™ â€˜puzhiyuan185489643@gmail.comâ€™
- * @LastEditTime: 2023-12-08 14:52:09
- * @FilePath: \LearnCPP\src\Foundation\lessons01\cin.cpp
- * @Description: learn cin
+ * @LastEditors: ¡®puzhiyuan¡¯ ¡®puzhiyuan185489643@gmail.com¡¯
+ * @LastEditTime: 2023-12-17 21:58:20
+ * @FilePath: \LearnCPP\src\Foundation\lessons01\Cin.cpp
+ * @Description: learn cin(Ê¹ÓÃGB 2312¸ñÊ½´ò¿ª)
  */
 #include <iostream>
 #include <string>
 
 int main() {
-    // è·å–æ•´æ•°è¾“å…¥
+    // »ñÈ¡ÕûÊıÊäÈë
     int integerValue;
-    std::cout << "è¯·è¾“å…¥ä¸€ä¸ªæ•´æ•°: ";
+    std::cout << "ÇëÊäÈëÒ»¸öÕûÊı: ";
     std::cin >> integerValue;
-    std::cout << "ä½ è¾“å…¥çš„æ•´æ•°æ˜¯: " << integerValue << std::endl;
+    std::cout << "ÄãÊäÈëµÄÕûÊıÊÇ: " << integerValue << std::endl;
 
-    // è·å–å­—ç¬¦ä¸²è¾“å…¥
+    // »ñÈ¡×Ö·û´®ÊäÈë
     std::string stringValue;
-    std::cout << "è¯·è¾“å…¥ä¸€ä¸ªå­—ç¬¦ä¸²: ";
-    std::cin.ignore();  // å¿½ç•¥å‰ä¸€ä¸ªè¾“å…¥ä¸­çš„æ¢è¡Œç¬¦
+    std::cout << "ÇëÊäÈëÒ»¸ö×Ö·û´®: ";
+    std::cin.ignore();  // ºöÂÔÇ°Ò»¸öÊäÈëÖĞµÄ»»ĞĞ·û
     std::getline(std::cin, stringValue);
-    std::cout << "ä½ è¾“å…¥çš„å­—ç¬¦ä¸²æ˜¯: " << stringValue << std::endl;
+    std::cout << "ÄãÊäÈëµÄ×Ö·û´®ÊÇ: " << stringValue << std::endl;
 
     return 0;
 }
